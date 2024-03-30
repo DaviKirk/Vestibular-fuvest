@@ -1,6 +1,11 @@
+/*tira o sublinhado do link*/
+
 a:link{
     text-decoration: none;
 }
+
+/*fontes de texto utilazadas na estilização do site*/
+
 #txt-label {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
