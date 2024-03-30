@@ -1,0 +1,37 @@
+a:link{
+    text-decoration: none;
+}
+#txt-label {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+#txt-tittle {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+#txt-subtittle {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 520;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+#txt-button{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 521;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}

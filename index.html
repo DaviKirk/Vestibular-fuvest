@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vestibular</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVRpeZVHWa374KzFBOACCLf51nNejJYwyTkoVGPIwm1Q&s"
+        type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;200;300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@900&family=Rubik+Mono+One&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@521&family=Martian+Mono:wdth,wght@87.7,100..800&family=Rubik+Mono+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container bg-white">
+
+            <div class="pt-2 pb-2">
+                <img class="img-fluid" src="https://www.fuvest.br/wp-content/uploads/fuvest_logo.png"
+                    style="width: 600px;">
+            </div>
+        </div>
+    </header>
+    <nav id="txt-button" style="background-color: #EFEFEF;">
+        <div class="container">
+            <a href="https://www.fuvest.br/">
+                <button class="btn">Inicio</button>
+            </a>
+
+            <a href="https://www.fuvest.br/vestibular-da-usp">
+                <button class="btn">Vestibular</button>
+            </a>
+            <a href="https://www.fuvest.br/todas-as-publicacoes">
+                <button class="btn">Notícias</button>
+            </a>
+            <a href="https://app.fuvest.br/faleconosco_faq">
+                <button class="btn">Fale conosco</button>
+            </a>
+            <a href="https://acervo.fuvest.br/">
+                <button class="btn">Acervo</button>
+            </a>
+        </div>
+    </nav>
+    <section style="background-color: #00ADEE;">
+        <div class="container p-3 px-5 text-white">
+            <h2 id="txt-tittle">FUVEST 2024</h2><br>
+            <h4 id="txt-subtittle">CADASTRO PARA VESTIBULAR</h4><br>
+            <p id="txt-label">UNIVERSIDADE DE SÃO PAULO</p>
+        </div>
+
+    </section>
+    <main>
+        <section>
+            <div style="background-color: #EFEFEF;" class="  p-3 my-5 container">
+
+                <div class="text-center">
+                    <h1>Dados Pessoais</h1>
+                    <p>Complete seus dados:</p>
+                </div>
+
+                <form action="index.html">
+                    <fieldset class="was-validated p-3 my-2">
+                        <div class="my-2">
+                            <label id="txt-label" class="form-label">Nome Completo:</label>
+                            <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome"
+                                required>
+                        </div>
+                        <div class="my-2">
+                            <label id="txt-label" class="form-label">Nome Social:</label>
+                            <input type="text" name="nomeSocial" id="nomeSocial" class="form-control"
+                                placeholder="Digite seu Social(opcional)">
+                        </div>
+                        <div class="my-2">
+                            <label id="txt-label" class="form-label">CPF:</label>
+                            <input type="text" name="CPF" id="cpf" class="form-control" placeholder="Digite seu CPF"
+                                required>
+                        </div>
+                        <div class="my-2">
+                            <label id="txt-label" class="form-label">Endereço Completo:</label>
+                            <input type="text" name="endereco" id="endereco" class="form-control"
+                                placeholder="Digite seu endereço" required>
+                        </div>
+                        <div class="my-2">
+                            <label id="txt-label" class="form-label">Sexo:</label> <br>
+                            <label id="txt-label" class="mx-5 form-label">
+                                <input type="radio" name="Genero" class="form-check-input" id="genero"
+                                    required>
+                                Masculino
+                            </label>
+                            <label id="txt-label" class="mx-5 form-label">
+                                <input type="radio" name="Genero" class="form-check-input" id="genero" 
+                                    required>
+                                feminino
+                            </label>
+                            <label id="txt-label" class=" mx-5 form-label">
+                                <input type="radio" name="Genero" class="form-check-input" id="genero"
+                                    required> outro
+                            </label>
+                        </div>
+                        <div class="my-2">
+                            <label id="txt-label" class="form-label">Telefone:</label>
+                            <input type="tel" name="Telefone" id="telefone" class="form-control"
+                                placeholder="digite seu telefone" required>
+                        </div>
+                        <div class="my-2">
+                            <label id="txt-label" class="form-label">Email:</label>
+                            <input type="email" name="email" id="email" class="form-control"
+                                placeholder="digite seu email" required>
+                        </div>
+                        <div class="my-2">
+                            <label id="txt-label" class="form-label">Foto do documento de identidade válido
+                                (RG, CNH):</label>
+                            <input type="file" name="Foto" id="Foto" class="form-control" required>
+                        </div>
+
+                    </fieldset>
+            </div>
+
+            <div style="background-color: #EFEFEF;" class=" p-3 my-5 container">
+
+                <div class="text-center  ">
+                    <h1>Informações Academicas</h1>
+                    <p>Complete seus dados:</p>
+                </div>
+
+                <fieldset class="was-validated p-3 my-2">
+                    <div class="my-2">
+                        <label id="txt-label" class="form-label">Instituição de ensino de origem:</label>
+                        <input type="text" name="Instituicao" id="Instituicao" class="form-control"
+                            placeholder="Digite sua Instituição" required>
+                    </div>
+                    <div class="my-2">
+                        <label id="txt-label" class="form-label">Curso desejado:</label>
+                        <select class="form-select">
+                            <option>selecione:</option>
+                            <option>Medicina</option>
+                            <option>Direito</option>
+                            <option>Engenharia Civil</option>
+                            <option>Engenharia Elétrica</option>
+                            <option>Engenharia Mecânica</option>
+                            <option>Administração de Empresas</option>
+                            <option>Economia</option>
+                            <option>Arquitetura e Urbanismo</option>
+                            <option>Ciências da Computação</option>
+                            <option>Psicologia</option>
+                            <option>Jornalismo</option>
+                            <option>Relações Internacionais</option>
+                        </select>
+                    </div>
+                    <div class="my-2">
+                        <label id="txt-label" class="form-label">Histórico escolar ou boletim acadêmico:</label>
+                        <input type="file" name="historico-escola" id="historico-escola" class="form-control" required>
+                    </div>
+                    <div class="my-2">
+                        <label id="txt-label" class="form-label">Certificados ou documentos que comprove conclusão
+                            do ensiono medio:</label>
+                        <input type="file" name="comprovante-ensino-concluido" id="comprovante-ensino-concluido"
+                            class="form-control" required>
+                    </div>
+                </fieldset>
+                <div class="container p-3">
+                    <input onclick="cadastrar()" class="btn btn-outline-primary" type="submit">
+                    <input class="btn btn-outline-primary" type="reset">
+                </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <div class="table-responsive container">
+        <table class=" table-hover table table-bordered border">
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Nome Social</th>
+                <th scope="col">CPF</th>
+                <th scope="col">Endereço</th>
+                <th scope="col">Telefone</th>
+                <th scope="col">E-mail</th>
+              </tr>
+            <tbody id="table">
+
+            </tbody>
+        </table>
+    </div>
+
+    <footer style="background-color: #929292;" class="container-fluid p-5">
+        <ul>
+            <li>Feito por: Davi Kirk</li>
+            <li>totalmente inspirado no site da fuvest</li>
+            <li><a href="https://www.fuvest.br/">link site fuvest</a></li>
+            <li>trabalho escolar</li>
+        </ul>
+    </footer>
+    <script src="js/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</body>
+
+</html>
